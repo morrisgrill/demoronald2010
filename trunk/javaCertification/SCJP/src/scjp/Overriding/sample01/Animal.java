@@ -1,10 +1,7 @@
-package scjp.OverridingAndOverloading.sample01;
+package scjp.Overriding.sample01;
 
 public class Animal {
 	
-	/**
-	 * Método comer
-	 */
 	public void eat() { 
 		
 		System.out.println("Generic Animal Eating Generically");

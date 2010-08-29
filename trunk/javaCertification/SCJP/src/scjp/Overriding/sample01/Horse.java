@@ -1,4 +1,4 @@
-package scjp.OverridingAndOverloading.sample01;
+package scjp.Overriding.sample01;
 
 class Horse extends Animal {
 
@@ -8,9 +8,5 @@ class Horse extends Animal {
 	public void eat() {
 		System.out.println("Horse eating hay, oats, " + "and horse treats");
 	}
-	/**
-	 * Método cargar
-	 */
-	public void buck() {
-	}
+
 }
