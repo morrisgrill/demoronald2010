@@ -1,4 +1,0 @@
----------------------------------------------
-Inheritance, Is-A, Has-A (Exam Objective 5.5)
----------------------------------------------
-5.5 Develop code that implements "is-a" and/or "has-a" relationships.

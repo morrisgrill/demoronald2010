@@ -1,5 +1,0 @@
-Polymorphism (Exam Objective 5.2)
----------------------------------
-5.2 Given a scenario, develop code that demonstrates the use of polymorphism. Further,
-    determine when casting will be necessary and recognize compiler vs. runtime errors related
-    to object reference casting. 
