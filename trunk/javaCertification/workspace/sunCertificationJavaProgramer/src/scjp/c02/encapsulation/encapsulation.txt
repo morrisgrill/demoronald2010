@@ -1,0 +1,33 @@
+----------------------------------
+Encapsulation (Exam Objective 5.1)
+----------------------------------
+5.1 Develop code that implements tight encapsulation, loose coupling, 
+and high cohesion in classes, and describe the benefits.
+
+-If you want maintainability, flexibility, and extensibility (and of course, you do),
+ your design must include encapsulation. How do you do that?
+
+   a) Keep instance variables protected (with an access modifier, often private).
+   
+   b) Make public accessor methods, and force calling code to use those methods
+      rather than directly accessing the instance variable.
+      
+   c) For the methods, use the JavaBeans naming convention of set<someProperty> 
+   	  and get<someProperty>.
+   	  
+   	  
+=========================================================================================
+
+5.1 Desarrollar código que implemente estricta encapsulación, bajo acoplamiento,
+y alta cohesion en las clases, y describir los beneficios
+
+
+
+
+--------------
+- Vocabulary -
+--------------
+
+-rather 		: más bien, antes
+-tight  		: estricto
+
