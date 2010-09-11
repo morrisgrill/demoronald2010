@@ -10,5 +10,7 @@ public interface EnvioMensajeDao {
 	 * 	<code>false</code>si no se env&iacute;a correctamente. 
 	 */
 	public boolean enviarMensaje(String mensaje, String destinatario);
+	
+	public boolean enviarMensaje(String mensaje, String... destinatarios);
 
 }
