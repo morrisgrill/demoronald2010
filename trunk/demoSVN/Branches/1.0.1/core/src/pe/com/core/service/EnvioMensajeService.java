@@ -14,5 +14,8 @@ public class EnvioMensajeService {
 		envioMensajeDao.enviarMensaje(mensaje, destinatario);
 	}
 	
+	public void enviarMensaje(String mensaje, String... destinatario ){
+		envioMensajeDao.enviarMensaje(mensaje, destinatario);
+	}
 	
 }

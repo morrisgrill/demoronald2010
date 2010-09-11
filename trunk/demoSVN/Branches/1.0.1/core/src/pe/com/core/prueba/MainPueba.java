@@ -12,6 +12,11 @@ public class MainPueba {
 		/*invocando al servicio*/
 		service.enviarMensaje("Ronald ve a comer", "Maria");
 		
+		/*envio de mensajes a destinatarios adicionales*/
+		
+		service.enviarMensaje("Ronald ve a comer", "Ronald", " Maria", "Pedro" , "Renzo");
+		
+		
 	}
 
 }
