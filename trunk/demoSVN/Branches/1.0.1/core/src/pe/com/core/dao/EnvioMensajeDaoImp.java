@@ -25,7 +25,7 @@ public class EnvioMensajeDaoImp implements EnvioMensajeDao{
 
 		System.out.println("Mensaje Enviado ");
 		
-		return false;
+		return true;
 	}
 
 }
