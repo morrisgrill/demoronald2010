@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation		= "vertical"
+    android:layout_width	= "fill_parent"
+    android:layout_height	= "fill_parent"
+    android:background 		= "@color/grey"
+    android:paddingLeft 	= "35px"
+    android:paddingRight 	= "35px"
+    android:paddingTop 		= "10px"
+    android:paddingBottom 	= "10px"
+    >
+    
+    <!-- Imagen Logo -->
+    <ImageView android:id		="@+id/ImageLogo1" 
+	    android:layout_width	="wrap_content" 
+	    android:layout_height	="wrap_content"
+	    android:layout_gravity	="center_vertical|center_horizontal"
+	    android:src				="@drawable/logo1"
+    />
+    
+    <!-- Usuario -->
+    <TextView  
+	    android:text			="@string/lbl_user" 
+	    android:layout_height	="wrap_content" 
+	    android:layout_width	="match_parent"/>
+    
+ 	<EditText android:id 		="@+id/editText"
+        android:layout_width	="fill_parent"
+        android:layout_height	="wrap_content"
+        android:autoText		="true" 
+        android:numeric			="integer" 
+        android:maxLength		="9"/>
+        
+   
+    
+    
+	<!-- Password -->
+    <TableLayout
+     android:id="@+id/TableLayout01"
+        android:stretchColumns="*"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        >
+    	<TableRow  android:id="@+id/TableRow01"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center_vertical|center_horizontal">
+
+             <TableLayout android:id="@+id/TableLayout01"
+		        android:stretchColumns="*"
+		        android:layout_height="wrap_content"
+		        android:layout_width="fill_parent" >
+						        
+		    	<TableRow  android:id="@+id/TableRow01"
+		            android:layout_height="wrap_content"
+		            android:layout_width="wrap_content"
+		            android:layout_gravity="center_vertical|center_horizontal">
+		            
+		            <TextView  android:text	="@string/lbl_pass"
+				    	android:layout_width	="fill_parent" 
+				    	android:layout_height	="wrap_content" />    
+		                
+		       	</TableRow>
+		       
+		       	<TableRow  android:id="@+id/TableRow01"
+		            android:layout_height="fill_parent"
+		            android:layout_width="wrap_content"
+		            android:layout_gravity="center_vertical|center_horizontal">
+		            
+		            
+		            <EditText android:id	="@+id/editPass"
+				        android:password		="true"
+				        android:maxLength		="6" 
+				        android:numeric			="integer" 
+				        android:autoText		="false" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+		       </TableRow>
+		      
+		</TableLayout>
+		    
+	    <Button android:id			="@+id/btnIngresar"
+	    	android:layout_height	="wrap_content" 
+	    	android:layout_width	="wrap_content" 
+	    	android:text			="@string/ingresar" 
+	    	android:padding			="22dp"
+	    	android:layout_gravity	="center_vertical|right"
+	    />    
+    	
+    	
+    	</TableRow>
+    
+    
+    </TableLayout>
+    
+	<!-- Texto del footer -->
+	<TextView 
+		android:id				="@+id/Txtv_footer"
+		android:layout_width	="match_parent" 
+		android:text			="@string/textFooter" 
+		android:layout_height	="match_parent" 
+		android:gravity			="center|bottom"/>
+
+</LinearLayout>
