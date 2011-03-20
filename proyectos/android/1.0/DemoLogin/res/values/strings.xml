@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, DemoLogin!</string>
+    <string name="app_name">VK-Mobile</string>
+    <string name="lbl_user">Teléfono</string>
+	<string name="lbl_pass">Clave</string>
+	<string name="textFooter">Venkizmet 2011\nCopyright </string>
+	
+	<string name="ingresar">Ingresar</string>
+	<string name="forgetPass">Olvido Clave</string>
+	<string name="newUser">Nuevo Usuario</string>
+	
+	<color name = "rojo">#123abc</color>
+	<color name = "grey">#fffff0</color>
+	
+	
+	
+	<!-- MENU -->
+	<string name="lblMenu">MENU</string>
+	
+	<!-- ITEMS -->
+	    <string
+        name="menu_item_settings">Perfiles y Permisos</string>
+    <string
+        name="menu_item_play">Consultas</string>
+    <string
+        name="menu_item_scores">Operaciones</string>
+    <string
+        name="menu_item_help">Servicios</string>
+    <string
+        name="menu_item_exit">Salir</string>
+	
+</resources>
