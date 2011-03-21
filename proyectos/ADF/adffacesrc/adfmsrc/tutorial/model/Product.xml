@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JavaBean xmlns="http://xmlns.oracle.com/adfm/beanmodel" version="11.1.1.56.60"
+          id="Product" Package="tutorial.model"
+          BeanClass="tutorial.model.Product" isJavaBased="true">
+  <Attribute Name="name" Type="java.lang.String"/>
+  <Attribute Name="category" Type="java.lang.String"/>
+  <Attribute Name="cost" Type="float"/>
+  <Attribute Name="manufactured" Type="java.util.Date"/>
+  <Attribute Name="image" Type="java.lang.String"/>
+  <Attribute Name="rating" Type="int"/>
+  <Attribute Name="description" Type="java.lang.String"/>
+  <ConstructorMethod IsCollection="true" Type="tutorial.model.Product"
+                     BeanClass="tutorial.model.Product" id="Product">
+    <ParameterInfo id="name1" Type="java.lang.String" isStructured="false"/>
+    <ParameterInfo id="category1" Type="java.lang.String" isStructured="false"/>
+    <ParameterInfo id="cost1" Type="float" isStructured="false"/>
+    <ParameterInfo id="manufactured1" Type="java.util.Date"
+                   isStructured="false"/>
+    <ParameterInfo id="image1" Type="java.lang.String" isStructured="false"/>
+    <ParameterInfo id="rating1" Type="int" isStructured="false"/>
+    <ParameterInfo id="description1" Type="java.lang.String"
+                   isStructured="false"/>
+  </ConstructorMethod>
+  <ConstructorMethod IsCollection="true" Type="tutorial.model.Product"
+                     BeanClass="tutorial.model.Product" id="Product"/>
+</JavaBean>

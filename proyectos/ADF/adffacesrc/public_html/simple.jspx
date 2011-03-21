@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.1"
+          xmlns:f="http://java.sun.com/jsf/core"
+          xmlns:h="http://java.sun.com/jsf/html"
+          xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+  <jsp:directive.page contentType="text/html;charset=windows-1252"/>
+  <af:pageTemplateDef var="attrs">
+    <af:decorativeBox id="pt_db1" theme="light">
+      <f:facet name="center">
+        <af:facetRef facetName="center"/>
+      </f:facet>
+      <f:facet name="top">
+        <af:panelGroupLayout id="pt_pgl1" layout="horizontal">
+          <af:image source="/images/brandingImage.gif" id="pt_i1"/>
+          <af:spacer width="100" height="10" id="pt_s1"/>
+          <af:outputText value="#{attrs.title}" id="pt_ot1"
+                         inlineStyle="color:Aqua; font-size:large;"/>
+        </af:panelGroupLayout>
+      </f:facet>
+    </af:decorativeBox>
+    <af:xmlContent>
+      <component xmlns="http://xmlns.oracle.com/adf/faces/rich/component">
+        <display-name>simple</display-name>
+        <facet>
+          <facet-name>center</facet-name>
+        </facet>
+        <attribute>
+          <attribute-name>title</attribute-name>
+          <attribute-class>java.lang.String</attribute-class>
+          <default-value>default title</default-value>
+        </attribute>
+      </component>
+    </af:xmlContent>
+  </af:pageTemplateDef>
+</jsp:root>
