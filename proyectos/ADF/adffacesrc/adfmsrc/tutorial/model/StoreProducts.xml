@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JavaBean xmlns="http://xmlns.oracle.com/adfm/beanmodel" version="11.1.1.56.60"
+          id="StoreProducts" Package="tutorial.model"
+          BeanClass="tutorial.model.StoreProducts" isJavaBased="true">
+  <AccessorAttribute id="products" IsCollection="true"
+                     BeanClass="tutorial.model.Product"
+                     CollectionBeanClass="UpdateableCollection"/>
+  <MethodAccessor IsCollection="false" Type="void" id="addProduct"
+                  ReturnNodeName="Return">
+    <ParameterInfo id="pname" Type="java.lang.String" isStructured="false"/>
+    <ParameterInfo id="pcategory" Type="java.lang.String" isStructured="false"/>
+    <ParameterInfo id="pprice" Type="float" isStructured="false"/>
+    <ParameterInfo id="pmanufactured" Type="java.util.Date"
+                   isStructured="false"/>
+    <ParameterInfo id="pimage" Type="java.lang.String" isStructured="false"/>
+    <ParameterInfo id="prating" Type="int" isStructured="false"/>
+    <ParameterInfo id="description" Type="java.lang.String"
+                   isStructured="false"/>
+  </MethodAccessor>
+  <ConstructorMethod IsCollection="true" Type="tutorial.model.StoreProducts"
+                     BeanClass="tutorial.model.StoreProducts"
+                     id="StoreProducts"/>
+</JavaBean>
